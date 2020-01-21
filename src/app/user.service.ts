@@ -30,7 +30,7 @@ export class UserService {
     console.log('getting data in service......',sendData);
     let email = sendData.email;
     let pswd = sendData.pswd;
-    if(email == "abir.adak16@gmail.com" && pswd == "12345"){
+    if(email == "admin@gmail.com" && pswd == "12345"){
       let id = uuid();
       localStorage.setItem("ID",id);
       return true;
